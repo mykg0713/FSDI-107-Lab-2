@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(255, 251, 251);
+}
+
+.nav{
+    box-shadow: 2px 2px 2px #e3e3e3e3;
+    
+}
+
+
+
+
+.catalog-container{
+    margin-top: 15px;
+}   
+
+
+.item{
+    display: inline-block;
+    border: 1px solid #b6b5b5;
+    width: 250px;
+    height: 350px;
+    margin-right: 15px;
+    margin-left: 15px;
+    vertical-align: top;
+    border-radius: 6px;
+    padding: 10px; 
+    background-color: white;
+    
+}
+
+.item:hover{
+    box-shadow: -2px 3px 2px #bababa;
+}
+
+.item img{
+    width: 230px;
+    height: 135px; 
+}
+
+.item button{
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+.item h4{
+    color: #757d6f;
+    font-family: 'Oswald', sans-serif;
+}
+
+.item h5{
+    color: #bababa;
+}
+
+
+.myButton {
+	box-shadow:inset 0px 0px 14px -3px #f2fadc;
+	background:linear-gradient(to bottom, #dbe6c4 5%, #9ba892 100%);
+	background-color:#dbe6c4;
+	border-radius:6px;
+	border:1px solid #b2b8ad;
+	display:inline-block;
+	cursor:pointer;
+	color:#757d6f;
+	font-family:Trebuchet MS;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ced9bf;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #9ba892 5%, #dbe6c4 100%);
+	background-color:#9ba892;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

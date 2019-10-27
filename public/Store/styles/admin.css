@@ -1,0 +1,26 @@
+h1{
+    color: darkslategrey;
+    text-align: center;
+}
+
+label{
+    text-align: right;
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
+
+.alert {
+    background-color: greenyellow;
+    border: 1px solid 
+}
+
+.alert h6 {
+    color: red;
+    text-align: center;
+}

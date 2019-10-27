@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Store Admin</title>
+
+    <!-- Styles -->
+    
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="styles/admin.css" rel="stylesheet">
+    
+    
+</head>
+
+
+<body>
+<!-- Nav Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!-- Title  -->             
+                <a class="navbar-brand" href="index.html">Jayce's Galatic Outlet</a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+                <a class="nav-link" href="/admin.html">Admin </a>
+              </li>
+              <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact </a>
+                  </li>
+            </div>
+              </nav>
+
+<!-- Container Main Page-->
+<div class="container">
+
+    <h1>Register stuff here</h1>
+
+    <div id="alert" class="hide">
+        <h6>Item Saved</h6>
+    </div>
+
+    <form>
+        <div class="form-group row">
+            <label class="offset-2 col-3 col-form-label">Code</label>
+            <div class="col-5">
+                <input id="txtCode" type="text" class="form-control">
+            </div>
+        </div>
+
+        <div class="form-group row">
+                <label class="offset-2 col-3 col-form-label">Title</label>
+                <div class="col-5">
+                    <input id="txtTitle" type="text" class="form-control">
+                </div>
+            </div>
+
+
+                <div class="form-group row">
+                        <label class="offset-2 col-3 col-form-label">Price</label>
+                        <div class="col-5">
+                            <input id="txtPrice" type="text" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                            <label class="offset-2 col-3 col-form-label">Category</label>
+                            <div class="col-5">
+                                <input id="txtCategory" type="text" class="form-control">
+                            </div>
+                        </div>
+
+                    <div class="form-group row">
+                            <label class="offset-2 col-3 col-form-label">Description</label>
+                            <div class="col-5">
+                                <input id="txtDescription" type="text" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                                <label class="offset-2 col-3 col-form-label">Rating</label>
+                                <div class="col-5">
+                                    <input id="txtRating" type="number" min="0" max="5" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                    <label class="offset-2 col-3 col-form-label">Image</label>
+                                    <div class="col-5">
+                                        <input id="txtImage" type="text" class="form-control">
+                                    </div>
+                                </div>
+<div class="row">
+    <div class="col btn-container">
+        <button id="btnSave" type="button" class="btn-btn-secondary">Save Item</button>
+    </div>
+</div>
+                                
+
+
+                        
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+    
+
+    
+
+
+    <!-- Scripts -->
+    <script src="scripts/jquery-3.4.1.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/admin.js"></script>
+    
+
+
+</body>
+</html>
